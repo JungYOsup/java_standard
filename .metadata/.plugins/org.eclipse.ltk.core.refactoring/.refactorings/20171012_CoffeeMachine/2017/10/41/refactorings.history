@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;min.edu.CoffePrint&apos; to &apos;CoffeePrint&apos;&#x0D;&#x0A;- Original project: &apos;20171012_CoffeeMachine&apos;&#x0D;&#x0A;- Original element: &apos;min.edu.CoffePrint&apos;&#x0D;&#x0A;- Renamed element: &apos;min.edu.CoffeePrint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CoffePrint&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;min.edu{CoffePrint.java[CoffePrint" matchStrategy="1" name="CoffeePrint" qualified="false" references="true" similarDeclarations="false" stamp="1507793043712" textual="false" version="1.0"/>
+</session>

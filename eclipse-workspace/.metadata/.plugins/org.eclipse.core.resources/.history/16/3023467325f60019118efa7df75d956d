@@ -1,0 +1,39 @@
+package 연습하기;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class 괄호 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		int sum =0;
+		boolean isc = true;
+		while(num--> 0) {
+
+			String s = scan.next();
+
+			for(char c : s.toCharArray()) {
+
+				if(c=='(') {
+					sum+=1;
+				}else {
+					sum+=-1;
+				}
+				if(sum<0) {
+					isc = false;
+				}
+
+			}
+
+			if(isc && sum==0) {
+				
+			}else {
+				
+			}
+		}
+
+	}
+}

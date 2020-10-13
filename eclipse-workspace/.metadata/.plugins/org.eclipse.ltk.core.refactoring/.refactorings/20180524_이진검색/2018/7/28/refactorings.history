@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Prac.doSearch_Prac&apos; to &apos;doSearch_Prac_재귀&apos;&#x0D;&#x0A;- Original project: &apos;20180524_이진검색&apos;&#x0D;&#x0A;- Original element: &apos;Prac.doSearch_Prac&apos;&#x0D;&#x0A;- Renamed element: &apos;Prac.doSearch_Prac_재귀&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;doSearch_Prac&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Prac{doSearch_Prac.java[doSearch_Prac" matchStrategy="1" name="doSearch_Prac_재귀" qualified="false" references="true" similarDeclarations="false" stamp="1531123380703" textual="false" version="1.0"/>
+</session>

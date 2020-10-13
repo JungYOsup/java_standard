@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Ant_Sequence2.java&apos; to &apos;20171026_Ant2/src/min.edu&apos;&#x0D;&#x0A;- Original project: &apos;20171026_Ant2&apos;&#x0D;&#x0A;- Destination element: &apos;20171026_Ant2/src/min.edu&apos;&#x0D;&#x0A;- Original element: &apos;min.edu.Ant_Sequence2.java&apos;" description="Copy compilation unit" destination="/src&lt;min.edu" element1="/src&lt;min.edu{Ant_Sequence2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1509017194125" units="1" version="1.0"/>
+</session>

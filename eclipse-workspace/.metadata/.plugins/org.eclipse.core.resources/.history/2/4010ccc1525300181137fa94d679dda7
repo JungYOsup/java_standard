@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class 정요섭 {
+	
+	static int a;
+	int b;
+	
+	public static void main(String[] args) {
+		
+		System.out.println(a);
+		
+		
+		
+	
+		
+	}
+	
+
+
+}
+

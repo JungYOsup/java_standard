@@ -1,0 +1,15 @@
+
+public class 정요섭 {
+	
+	public static void main(String[] args) {
+		
+		String str = "abc(fas)asd";
+	
+		int 정요섭 =0;
+		
+		System.out.println(정요섭);
+		
+	}
+
+}
+

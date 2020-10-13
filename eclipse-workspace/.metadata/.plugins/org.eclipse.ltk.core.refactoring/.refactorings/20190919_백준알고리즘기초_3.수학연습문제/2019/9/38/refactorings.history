@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;problem_9613&apos; to &apos;problem_9613_GCD합&apos;&#x0D;&#x0A;- Original project: &apos;20190919_백준알고리즘기초_3.수학연습문제&apos;&#x0D;&#x0A;- Original element: &apos;problem_9613&apos;&#x0D;&#x0A;- Renamed element: &apos;problem_9613_GCD합&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;problem_9613&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{problem_9613.java[problem_9613" matchStrategy="1" name="problem_9613_GCD합" qualified="false" references="true" similarDeclarations="false" stamp="1568864774431" textual="false" version="1.0"/>
+</session>

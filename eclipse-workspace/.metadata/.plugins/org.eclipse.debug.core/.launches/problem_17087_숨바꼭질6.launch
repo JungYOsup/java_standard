@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/20190919_백준알고리즘기초_3.수학연습문제/src/problem_17087_숨바꼭질6.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="problem_17087_숨바꼭질6"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="20190919_백준알고리즘기초_3.수학연습문제"/>
+</launchConfiguration>

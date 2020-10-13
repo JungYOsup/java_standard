@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Kan&apos; to &apos;Youtube&apos;&#x0D;&#x0A;- Original project: &apos;20180703_병합정렬&apos;&#x0D;&#x0A;- Original element: &apos;20180703_병합정렬/src/Kan&apos;&#x0D;&#x0A;- Renamed element: &apos;20180703_병합정렬/src/Youtube&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Kan&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Kan" name="Youtube" qualified="false" references="true" stamp="1530621750940" textual="false" version="1.0"/>
+</session>

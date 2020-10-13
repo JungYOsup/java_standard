@@ -1,0 +1,13 @@
+package 연습;
+
+import java.util.Scanner;
+
+public class 단어뒤집기2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

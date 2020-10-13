@@ -1,0 +1,17 @@
+
+public class 정요섭 {
+	
+	public static void main(String[] args) {
+		
+		double b = 3.0;
+		int a = (int) b;
+		
+		System.out.println(a);
+		
+		char c = 65;//
+		System.out.println(c);
+		char c = '6';
+	}
+
+}
+

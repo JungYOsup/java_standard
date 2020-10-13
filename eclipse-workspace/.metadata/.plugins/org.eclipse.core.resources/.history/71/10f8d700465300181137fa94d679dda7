@@ -1,0 +1,14 @@
+
+public class 정요섭 {
+	static char a='응';
+	
+	public static void main(String[] args) {
+		
+		
+		
+		System.out.println(a);
+		
+	}
+
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;i&apos; in &apos;Kan.QuickSort.partiton(...)&apos; to &apos;j&apos;&#x0D;&#x0A;- Original project: &apos;20180703_QuickSort&apos;&#x0D;&#x0A;- Original element: &apos;Kan.QuickSort.partiton(int[], int, int).i&apos;&#x0D;&#x0A;- Renamed element: &apos;i&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;i&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Kan{Main.java[QuickSort~partiton~\[I~I~I@i!234!240!238!238!I!0!false" name="j" references="true" stamp="1530770396632" version="1.0"/>
+</session>

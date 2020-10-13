@@ -1,0 +1,17 @@
+
+public class 정요섭 {
+	
+	public static void main(String[] args) {
+		
+		String str = "abc(fas)asd";
+		
+		StringBuilder re = new StringBuilder(str);
+		re.reverse();
+		System.out.println(re);
+		
+		
+		
+	}
+
+}
+

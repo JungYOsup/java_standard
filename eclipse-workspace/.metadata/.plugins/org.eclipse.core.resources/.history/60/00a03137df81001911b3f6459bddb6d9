@@ -1,0 +1,106 @@
+import java.util.Scanner;
+
+
+//온라인 채점 시스템의 경우에는 1초당 1억번의 연산을 하므로 
+//N의 조건이 (1<=N<=1000000)번 이므로 어떠한 정렬을 사용하던 최대 1000000000(=10억)가 걸리므로 
+//시간복잡도 O(n*logn)을 요구한다. 왜? 시간복잡도 O(n*2)일 경우 위처럼 최대 10억번이 작동되므로 최대 10초가 걸리게 된다.
+//따라서 이 문제를 해결하기 위해서는 버블,선택,삽입은 될수가없다.
+//그렇다면 퀵정렬이 시간복잡도가 O(n*logn)이므로 이것을 사용하면 어떨까?
+//프로그래밍 쪽에서는 일반적으로 시간복잡도 O(n*logn)을 요구하는 곳에서 퀵 정렬을 쓸떄 해결되지 못하도록함.. 
+//따라서 이 문제는 sort()나 병합정렬 등을 사용해야한다.
+//그런데 이 문제에서도 sort()를 사용할시 시간초과가 뜨는데  Array.sort는 퀵정렬을 기반으로 하나 별도의 처리를 거쳣다는 점에서 최악의 경우인 O(n^2)에도
+//O(n*logn)을 보장한다고는 하나, 연산개수가 많아질경우에는 안되는건 안되더라.
+
+//즉 이 문제는 버블,선택,삽입,퀵,Sort()함수 다 안됨
+//해결할수 있는것은 병합정렬 등 
+
+public class Array_2751 {
+	
+	static int[] sort = new int[array.length];
+	
+	
+	
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in); 
+
+		int size = scan.nextInt();
+		if(size>1000000)return;
+		int [] array = new int[size];
+
+		for(int i=0; i<size; i++) {
+			int value = scan.nextInt();
+			if(value>1000000)return;
+			array[i] = value;
+		}
+		
+		
+
+		Merge_Sort(array, 0, array.length-1);
+
+		for(int i=0; i<array.length; i++) {
+			System.out.println(array[i]);
+		}
+
+	}
+
+
+	public static void Merge(int[] array, int m , int middle, int n) {
+
+		int i = m;
+		int j = middle+1;
+		int k = m;
+
+
+		while(i<=middle&&j<=n) {
+
+			if(array[i]<=array[j]) {
+				sort[k] = array[i];
+				i++;
+			}else {
+				sort[k] = array[j];
+				j++;
+			}
+			k++;
+		}
+
+		if(i>middle) {
+			for(int t=j; t<=n; t++) {
+				sort[k] = array[t];
+				k++;
+			}
+		}else {
+			for(int t=i; t<=middle; t++) {
+				sort[k] = array[t];
+				k++;
+			}
+		}
+
+		for(int t=m; t<=n; t++) {
+			array[t]=sort[t];
+		}
+
+
+	}
+
+	public static void Merge_Sort(int[] array, int m , int n) {
+
+		if(m<n) {
+			int middle = (m+n)/2;
+
+			Merge_Sort(array, m, middle);
+			Merge_Sort(array, middle+1, n);
+
+			Merge(array,m,middle,n);
+
+		}
+
+	}
+	
+	//	public static void Array_2750(int[] array) {
+	//
+	//		Arrays.sort(array);
+	//
+	//	}
+
+}

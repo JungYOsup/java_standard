@@ -1,0 +1,15 @@
+
+public class 정요섭 {
+	
+	public static void main(String[] args) {
+		
+		
+		int a = 5;
+		int b = a;
+		
+		b=3;
+		System.out.println(a);
+	}
+
+}
+

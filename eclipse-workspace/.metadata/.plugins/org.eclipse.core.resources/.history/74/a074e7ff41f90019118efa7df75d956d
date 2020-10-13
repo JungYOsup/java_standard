@@ -1,0 +1,23 @@
+package 연습;
+
+import java.util.Scanner;
+
+public class 단어뒤집기2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String s = scan.nextLine();
+		String str = "";
+		for(char c : s.toCharArray()) {
+			
+			if(c=='<') {
+				str+='<'
+			}
+		}
+		
+
+	}
+
+}

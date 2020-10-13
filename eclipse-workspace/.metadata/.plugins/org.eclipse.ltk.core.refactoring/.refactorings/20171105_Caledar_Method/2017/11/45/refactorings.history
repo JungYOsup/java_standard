@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;beforeday&apos; in &apos;Calendar_Method.print(...)&apos; to &apos;afterdays&apos;&#x0D;&#x0A;- Original project: &apos;20171105_Caledar_Method&apos;&#x0D;&#x0A;- Original element: &apos;Calendar_Method.print(int, int).beforeday&apos;&#x0D;&#x0A;- Renamed element: &apos;beforeday&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;beforeday&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Calendar_Method.java[Calendar_Method~print~I~I@beforeday!1152!1197!1156!1164!I!0!false" name="afterdays" references="true" stamp="1509889256074" version="1.0"/>
+</session>

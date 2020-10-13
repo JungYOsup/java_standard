@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;problem_9093&apos; to &apos;problem_9093_단어뒤집기&apos;&#x0D;&#x0A;- Original project: &apos;20190821_백준알고리즘기초_Stack&apos;&#x0D;&#x0A;- Original element: &apos;problem_9093&apos;&#x0D;&#x0A;- Renamed element: &apos;problem_9093_단어뒤집기&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;problem_9093&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{problem_9093.java[problem_9093" matchStrategy="1" name="problem_9093_단어뒤집기" qualified="false" references="true" similarDeclarations="false" stamp="1566367680006" textual="false" version="1.0"/>
+</session>

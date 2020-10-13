@@ -1,0 +1,58 @@
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Greedy_1541 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		String value = scan.next();
+		
+		Greedy_1541(value);
+		
+		
+	}
+	
+	public static void Greedy_1541(String value) {
+
+		LinkedList<Character> arithmeticBox  = new LinkedList<>();
+		LinkedList<Integer> numBox = new LinkedList();
+		
+		String num ="";
+		
+		for(int i=0; i<value.length(); i++) {
+			
+			char c=value.charAt(i);
+			
+			if(c=='+'||c=='-') {
+				numBox.add(Integer.parseInt(num));
+				arithmeticBox.add(c);
+				num="";
+				continue;
+			}
+			num += c;
+					
+		}
+		numBox.add(Integer.parseInt(num));
+		
+		int index = 0;
+		
+		for(int i=0; i<arithmeticBox.size(); i++) {
+			if(arithmeticBox.peek()=='-') {
+				index = i;
+			}
+		}
+		
+		for(int i=index; i<arithmeticBox.size(); i++) {
+			arithmeticBox.add()		}
+		
+		while(arithmeticBox.isEmpty()) {
+		}
+		
+		
+		
+		
+	}
+
+}

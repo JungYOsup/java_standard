@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Greedy_1541 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		String value = scan.next();
+		
+		int result = Integer.parseInt(value);
+		
+		System.out.println(result);
+		
+	}
+	
+	public static void Greedy_1541() {
+
+		
+		
+	}
+
+}

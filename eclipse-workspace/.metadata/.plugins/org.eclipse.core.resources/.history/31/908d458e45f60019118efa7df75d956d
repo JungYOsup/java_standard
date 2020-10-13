@@ -1,0 +1,66 @@
+package 연습하기;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class 에디터 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String s = scan.next();
+		int num = scan.nextInt();
+		
+		scan.nextLine();
+		
+		Stack<Character>stack1 = new Stack<>();
+		Stack<Character>stack2 = new Stack<>();
+				
+		for(char c : s.toCharArray()) {
+			stack1.add(c);
+		}
+				
+		while(num-->0) {
+			
+			String input = scan.nextLine();
+			
+			if(input.charAt(0) == 'P') {
+				char c = input.charAt(2);
+				stack1.add(c);
+			}
+			
+			if(input == "L") {
+				if(!stack1.isEmpty()) {
+					stack2.add(stack1.pop());		
+				}
+				
+			}
+			
+			if(input =="D") {
+				if(!stack2.isEmpty()) {
+					stack1.add(stack2.pop());
+				}
+			}
+			
+			if(input =="B") {
+				if(!stack1.isEmpty()) {
+					stack1.pop();
+				}
+			}
+			
+			
+		}
+		
+		
+		while(!stack1.isEmpty()) {
+			stack2.add(stack1.pop());
+		}
+		
+		while(!stack2.isEmpty()) {
+			System.out.print(stack2.pop());
+		}
+		
+	}
+
+}

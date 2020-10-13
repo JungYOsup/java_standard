@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;20171030_OOP/ㅕㅢ.ucls&apos; to &apos;UML.ucls&apos;" description="Rename resource &apos;ㅕㅢ.ucls&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ㅕㅢ.ucls" name="UML.ucls" stamp="1509339198238" updateReferences="true"/>
+</session>

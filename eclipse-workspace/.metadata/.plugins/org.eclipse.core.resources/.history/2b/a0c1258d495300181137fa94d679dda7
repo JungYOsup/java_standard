@@ -1,0 +1,14 @@
+
+public class 정요섭 {
+	
+	public static void main(String[] args) {
+		
+		int a = 3;
+		double a
+		
+		System.out.println(a);
+		
+	}
+
+}
+

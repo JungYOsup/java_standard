@@ -1,0 +1,33 @@
+package 연습;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class 단어뒤집기2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		String s = scan.nextLine();
+		Stack<Character> stack = new Stack<>();
+
+		String str = "";
+		for(char c : s.toCharArray()) {
+
+			if(c=='<' || c=='>') {
+				if(!stack.isEmpty()) {
+
+				}
+				
+				str+=c;
+
+			}else {
+				stack.add(c);
+			}
+		}
+
+
+	}
+
+}
